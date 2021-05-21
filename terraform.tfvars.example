@@ -1,7 +1,7 @@
 # Environment tag for all resources being created. You can leave this value as-is.
 environment_tag =   "sbx" # sbx = Sandbox, dev = Development, uat = UAT, prd = Production
 company_name    =   "ACME"
-business_unit   =   "Professional-Services" # Don't put spaces, instead use - or _.
+business_unit   =   "Cloud-Services" # Don't put spaces, instead use - or _.
 project         =   "your-google-cloud-project-id"
 region          =   "us-east1"
 

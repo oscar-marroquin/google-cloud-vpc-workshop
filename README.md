@@ -16,7 +16,7 @@ Are only 1 file that you need modify, and this file is the **terraform.tfvars.ex
 - [ ] \(Optional) network_address_space - If you want, you can change the network address space.
 - [ ] \(Optional) subnet_count - As well, you can create more than the default subnets that this template creates.
 
-:warning :warning :warning Remember, I encourage to you don't use an **auth_file** because this can be insecure, instead my recommendation is use the Google Cloud SDK and a default login profile.
+:warning: :warning: :warning: Remember, I encourage to you don't use an **auth_file** because this can be insecure, instead my recommendation is use the Google Cloud SDK and a default login profile.
 
 
 ## Google Cloud Login Profile
@@ -37,7 +37,7 @@ What are the valid Terraform Workspaces names for this template?
 - uat / for UAT Environment
 - prd / for Production Environment
 
-⭐ :star :star And, that's all dudes... you're ready to deploy your Google Cloud VPC!!! :star :star :star
+⭐⭐⭐ And, that's all dudes... you're ready to deploy your Google Cloud VPC!!! ⭐⭐⭐
 
 ## Conclusion
 I hope this template is very useful for you, as it's for me. I'd love to hear feedback and suggestions for revisions.

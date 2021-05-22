@@ -37,7 +37,7 @@ What are the valid Terraform Workspaces names for this template?
 - uat / for UAT Environment
 - prd / for Production Environment
 
-:star :star :star And, that's all dudes... you're ready to deploy your Google Cloud VPC!!! :star :star :star
+⭐ :star :star And, that's all dudes... you're ready to deploy your Google Cloud VPC!!! :star :star :star
 
 ## Conclusion
 I hope this template is very useful for you, as it's for me. I'd love to hear feedback and suggestions for revisions.

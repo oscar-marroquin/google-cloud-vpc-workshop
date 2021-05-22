@@ -39,6 +39,17 @@ What are the valid Terraform Workspaces names for this template?
 
 ⭐⭐⭐ And, that's all dudes... you're ready to deploy your Google Cloud VPC!!! ⭐⭐⭐
 
+
+## What about the Firewall rules
+This template creates 4 Firewall rules, 2 of them apply to all resources inside of this VPC and are for an implicit deny for inbound and outbound traffic (with a priority of 65535) and the other 2 rules are for SSH and RDP and only allow this traffic from the [Google Identity Aware Proxy](https://github.com/GoogleCloudPlatform/iap-desktop) CIDR IP range to securily connect to your Virtual Machines.
+
+### How can I apply this management rules?
+You can apply this rule using the next network tags:
+
+- For Linux servers the network tag is: linux-servers
+- For Windows server the network tag is: windows-server
+
+
 ## Conclusion
 I hope this template is very useful for you, as it's for me. I'd love to hear feedback and suggestions for revisions.
 
